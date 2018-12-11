@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
         val handler = Handler()
         handler.postDelayed({
             startActivity(Intent(applicationContext, MainActivity::class.java))
-            //startActivity(Intent(applicationContext, MypokemonActivity::class.java))
+            //startActivity(Intent(applicationContext, LoginActivity::class.java))
             finish()
         }, 3000)
     }
